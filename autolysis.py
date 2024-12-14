@@ -67,7 +67,7 @@ def create_visualizations(data_frame):
     numeric_columns = data_frame.select_dtypes(include=['number']).columns
     if numeric_columns.empty:
         print("No numeric columns found for visualization.")
- return
+        return
     for numeric_column in numeric_columns[:3]:  # Limit to first 3 numeric columns for visualization
         plt.figure()
         sns.histplot(data_frame[numeric_column].dropna(), kde=True)

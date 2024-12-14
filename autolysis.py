@@ -9,6 +9,7 @@
 #     "openai",
 #     "scikit-learn",
 #     "tabulate",
+#     "chardet",
 # ]
 # ///
 

@@ -1,3 +1,19 @@
+# /// script
+# requires-python=">=3.9"
+# dependencies = [
+#     "pandas",
+#     "numpy",
+#     "matplotlib",
+#     "seaborn",
+#     "requests",
+#     "openai",
+#     "scikit-learn",
+#     "tabulate",
+# ]
+# ///
+
+
+
 import os
 import sys
 import pandas as pd
